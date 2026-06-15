@@ -1,4 +1,4 @@
-# toy-gpu — core curriculum
+# nanogpu — core curriculum
 
 **Mission:** build a working GPU *architecture* simulator in Python — not silicon, not HDL —
 then go to the metal (real CUDA C on a GPU) and the landscape (other ASICs). Goal: GPU

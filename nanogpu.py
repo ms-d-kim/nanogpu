@@ -1,4 +1,4 @@
-"""Toy GPU simulator -- core runtime.
+"""nanogpu -- core runtime of the toy GPU simulator.
 
 This file models the GPU side of the host/device split: it takes a kernel
 (a plain Python function describing ONE thread's job) and runs it once per

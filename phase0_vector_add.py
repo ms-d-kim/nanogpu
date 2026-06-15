@@ -6,7 +6,7 @@ Run it with:  python phase0_vector_add.py
 """
 
 import math
-from toygpu import launch
+from nanogpu import launch
 
 
 def vector_add(t, a, b, c):

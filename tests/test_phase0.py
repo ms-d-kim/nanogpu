@@ -5,7 +5,7 @@ Run from the repo root with:  pytest
 
 import math
 
-from toygpu import launch
+from nanogpu import launch
 from phase0_vector_add import vector_add
 
 

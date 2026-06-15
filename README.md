@@ -1,4 +1,4 @@
-# toy-gpu
+# nanogpu
 
 A functional GPU *architecture* simulator in Python — built to develop intuition
 for how GPUs execute work and manage memory, aimed at understanding inference
@@ -76,7 +76,7 @@ Memory, fast→slow: **registers** → **shared memory** → **L1/L2** → **HBM
 
 ## Layout
 
-- `toygpu.py` — the simulator core (the `launch` runtime + `Thread`).
+- `nanogpu.py` — the simulator core (the `launch` runtime + `Thread`).
 - `phase0_vector_add.py` — the Phase 0 workload + a self-checking runner.
 - `tests/` — pytest checks (red until each phase's blanks are filled, then green).
 - `CURRICULUM.md` — the full Act I / II / III plan and the build/coach contract.
